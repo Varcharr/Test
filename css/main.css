@@ -1,0 +1,141 @@
+body{
+/*font-family: 'Permanent Marker', cursive;*/
+font-family: 'Sedgwick Ave', cursive;
+
+  text-align: center;
+  /*background-color: #ffedbf;*/
+  background-color: #f4d992;
+
+}
+h1{
+  font-size: 50px;
+}
+.content{
+  max-width: 600px;
+  margin-left: 35vw
+}
+.container{
+  margin: 0 auto;
+}
+.place{
+  max-width: 480px;
+  transition: 0.3s;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #fff;
+  padding: 20px 10px 10px 10px;
+  font-size: 1.5em;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+
+}
+.place:hover {
+  font-size: 1.65em;
+  max-width: 550px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.place img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(50%); /* Safari */
+   filter: grayscale(50%);
+}
+.left{
+  top:100px;
+  position: fixed;
+  left:20px;
+  right: 0;
+  display: inline-block;
+  height: 100vh;
+  width: 30vw;
+  font-size: 30px;
+}
+#one{
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px 10px 10px 10px;
+  font-size: 1em;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+  margin: 0px;
+  display: none;
+}
+::selection {
+  background: #fff2a8;
+}
+::-moz-selection {
+  background: #fff2a8;
+}
+#big:hover{
+  text-decoration: underline;
+}
+#back{
+  display: none;
+}
+#back:hover{
+  text-decoration: underline;
+}
+#priceBtn:hover{
+  text-decoration: underline;
+}
+#distanceBtn:hover{
+  text-decoration: underline ;
+}
+.coffeeTip{
+  font-size: 0.6em;
+  color: brown;
+}
+hr{
+  border-color:  rgba(0, 0, 0, 0.08);
+}
+.distance{
+  color: brown;
+  font-size: 0.8em;
+}
+h4{
+  margin: 10px auto;
+}
+/*.glow{
+  text-shadow:
+       2px 2px 0 #fff,
+     -1px -1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+}*/
+.info{
+  font-size: 0.8em;
+}
+.smallImg{
+  display: none;
+    width:  100%;
+    max-height: 400px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+#slides {
+  margin: 0 auto;
+}
+
+@media (max-width: 770px) {
+
+.content{
+  margin: 3px auto;
+}
+.one{
+  font-size: 1em;
+  width: 100%;
+}
+.left{
+ display: none;
+}
+
+@media (min-width: 1400px) {
+
+.place{
+  max-width: 40vw;
+}
+.place:hover{
+  max-width: 44vw;
+}
+}
